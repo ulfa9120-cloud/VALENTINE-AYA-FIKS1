@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kartu Valentine 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- MUSIC -->
+<audio id="bgMusic" loop>
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<!-- HEART RAIN -->
+<div class="hearts"></div>
+
+<!-- CARD -->
+<div class="card">
+  <h1>💌 Happy Valentine 💌</h1>
+
+  <div class="buttons">
+    <button onclick="showText()">💬 Text</button>
+    <button onclick="showPhoto()">📸 Foto</button>
+  </div>
+
+  <!-- TEXT -->
+  <div id="textBox" class="content">
+    <p>
+      💕 HAPPY VALENTINE DAY HONEYY💕  
+      <br><br>
+      I LOVE YOUUTDAY, TOMRROW, FOREVER.
+      <BR>
+        terimakasih yaa woop udah dateng di kehidupan ku,
+        <br>
+        ketemu sama kamu tuhhal yang gak pernah ku duga sama sekali
+        <br>
+        aku happy bangetbisa sama kamu sampai sekarang
+        <br>
+        aku selalu ngerasa nyaman banget kalo sama kamu
+        <br>
+        aku sayaaang banget sama kamu
+        <br><br>
+        maaf yaa atas luka yang udah ku perbuat ke kamu
+        <br>
+        aku harap kamu bisa menerima semua kekuranganku dan tetap bersamaku
+        <br>
+        Terimakasih yaaa atas semua yang kamu kasih
+        <br>
+        aku bersyukur banget punya kamu
+        <br>
+        gimanapun nanti aku tetap sayang kamu 
+        <br>
+        I'M SO PROUD OF YOU HONEYY🤍
+        <BR>
+        SEMANGAT TERUS BUAT KAMU JALANI SEMUA TANTANGAN YANG ADA
+        <BR>
+        AKU BAKAL SELALU ADA BUAT KAMU  
+        <br><br>
+        LOVE YOU SO MUCHH💖
+
+    </p>
+  </div>
+
+  <!-- PHOTO -->
+  <div id="photoBox" class="content">
+    <div class="frame">
+      <img id="photo" src="photos/foto1.jpg">
+    </div>
+
+    <div class="nav">
+      <button onclick="prevPhoto()">◀</button>
+      <button onclick="nextPhoto()">▶</button>
+    </div>
+  </div>
+
+  <!-- MUSIC BUTTON -->
+  <button class="music-btn" onclick="toggleMusic()">🎶</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
